@@ -3,66 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STYLECORE | Магазин одежды</title>
+    <title>Магазин одежды</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <header>
-        <nav class="navbar">
-            <div class="logo">STYLE<span>CORE</span></div>
-            <ul class="nav-links">
-                <li><a href="#">Новинки</a></li>
-                <li><a href="#">Каталог</a></li>
-                <li><a href="#">О нас</a></li>
-            </ul>
-            <div class="cart">Корзина (0)</div>
+        <h1>Добро пожаловать в наш магазин одежды!</h1>
+        <nav>
+            <a href="#men">Мужская</a>
+            <a href="#women">Женская</a>
+            <a href="#kids">Детская</a>
         </nav>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>НОВАЯ КОЛЛЕКЦИЯ 2026</h1>
-            <p>Минимализм и комфорт в каждой детали</p>
-            <a href="#" class="btn">Смотреть каталог</a>
+    <section id="men">
+        <h2>Мужская одежда</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Футболка">
+                <p>Футболка — 1500₸</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Джинсы">
+                <p>Джинсы — 4000₸</p>
+            </div>
         </div>
     </section>
 
-    <section class="products">
-        <h2>Популярные товары</h2>
-        <div class="product-grid">
-            <div class="product-card">
-                <div class="badge">New</div>
-                <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=600&auto=format&fit=crop" alt="Бомбер">
-                <h3>Стильный бомбер</h3>
-                <p class="price">8 900 ₽</p>
-                <button class="add-to-cart">В корзину</button>
+    <section id="women">
+        <h2>Женская одежда</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Платье">
+                <p>Платье — 3500₸</p>
             </div>
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=600&auto=format&fit=crop" alt="Косуха">
-                <h3>Кожаная куртка</h3>
-                <p class="price">12 500 ₽</p>
-                <button class="add-to-cart">В корзину</button>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Блузка">
+                <p>Блузка — 2000₸</p>
             </div>
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=600&auto=format&fit=crop" alt="Футболка">
-                <h3>Белая футболка</h3>
-                <p class="price">2 200 ₽</p>
-                <button class="add-to-cart">В корзину</button>
+        </div>
+    </section>
+
+    <section id="kids">
+        <h2>Детская одежда</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Футболка">
+                <p>Футболка — 1200₸</p>
             </div>
-            <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=600&auto=format&fit=crop" alt="Джинсы">
-                <h3>Джинсы Slim</h3>
-                <p class="price">5 600 ₽</p>
-                <button class="add-to-cart">В корзину</button>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Штаны">
+                <p>Штаны — 1500₸</p>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 STYLECORE Store. Сделано для GitHub Pages.</p>
+        <p>&copy; 2026 Магазин одежды. Все права защищены.</p>
     </footer>
-
 </body>
 </html>
